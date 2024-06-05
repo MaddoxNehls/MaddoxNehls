@@ -28,7 +28,7 @@ I'm an undergraduate student at Oregon State University pursuing a Bachelor's de
 ## Rapidfire  
 <table><tr><td valign="top" width="50%">
 
-- ### <ins>🔭 I’m currently working on [FormBuilder](https://form-builder-full-stack.vercel.app/) and [My Personal Portfolio](https://maddoxnehls.vercel.app/)</ins>  
+- ### <ins>🔭 I’m currently working on [NehlsNav](https://nehls-nav.vercel.app/) and [My Personal Portfolio](https://maddoxnehls.vercel.app/)</ins>  
   
 
 - ### <ins>🌱I’m currently diving into AI and cloud infrastructure.</ins>  
