@@ -19,7 +19,7 @@
 
 
 ### Here's a little bit about me!  
-I'm an undergraduate student at Oregon State University pursuing a Bachelor's degree in Computer Science. Welcome to my GitHub! 🌟 I am passionate about technology and problem-solving, constantly learning and working on challenging projects. In my free time, I enjoy playing basketball 🏀 and engaging in creative activities 🎨. I am excited to connect and collaborate on innovative ideas and projects. 🚀  
+Welcome to my GitHub! 🌟 I am passionate about technology and problem-solving, constantly learning and working on challenging projects. In my free time, I enjoy playing basketball 🏀 and engaging in creative activities 🎨. I am excited to connect and collaborate on innovative ideas and projects. 🚀  
   
 
 <br/>  
