@@ -21,11 +21,11 @@ I'm Maddox, a software engineer in Beaverton, Oregon. I like owning things end t
   </picture>
 </p>
 
-### Off the clock
+### How I work
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/tiles-dark.svg">
-  <img alt="Climbing: bouldering, V5. Gym: 5-6 days a week. Keyboards: gasket-mount 75%, lubed. Movies and TV: Money Heist fan. Travel: next stop, Mexico." src="./assets/tiles-light.svg" width="100%">
+  <img alt="Schema first: data model up front. Ship small: small PRs, often. Read the source before I guess. Watch real users, then fix the UX. Write it down: docs are features." src="./assets/tiles-light.svg" width="100%">
 </picture>
 
 <details>

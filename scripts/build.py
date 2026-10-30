@@ -66,18 +66,18 @@ ROWS = [
 ]
 
 TILES = [
-    ('Climbing', 'Bouldering, V5', 'mountain'),
-    ('Gym', '5-6 days a week', 'dumbbell'),
-    ('Keyboards', 'Gasket 75%, lubed', 'keyboard'),
-    ('Movies & TV', 'Money Heist fan', 'film'),
-    ('Travel', 'Next stop: Mexico', 'plane'),
+    ('Schema first', 'Data model up front', 'database'),
+    ('Ship small', 'Small PRs, often', 'branch'),
+    ('Read the source', 'Before I guess', 'code'),
+    ('Watch real users', 'Then fix the UX', 'eye'),
+    ('Write it down', 'Docs are features', 'file'),
 ]
 ICONS = {  # 24x24 stroke icons
-    'mountain': '<path d="m8 3 4 8 5-5 5 15H2L8 3z"/>',
-    'dumbbell': '<path d="M6 6v12M3 9v6M18 6v12M21 9v6M6 12h12"/>',
-    'keyboard': '<rect x="2" y="5" width="20" height="14" rx="2"/><path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"/>',
-    'film': '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 3v18M3 7.5h4M3 12h18M3 16.5h4M17 3v18M17 7.5h4M17 16.5h4"/>',
-    'plane': '<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',
+    'database': '<ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/>',
+    'branch': '<circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="6" r="3"/><path d="M6 9v6M18 9a9 9 0 0 1-9 9"/>',
+    'code': '<path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/>',
+    'eye': '<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+    'file': '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>',
 }
 
 def font_face():
@@ -143,15 +143,15 @@ def signoff(mode, line):
     """Two lines at a larger size: the echo, then the author as a comment when there is one."""
     t = THEMES[mode]
     text, _, who = line.partition(' | ')
-    fs, cw = 22, 13.2
-    W, H = 1100, 104 if who else 64
+    fs, cw = 18, 10.8
+    W, H = 1100, 92 if who else 56
     shown = f'"{text}"'
     end = 18 + (len('$ echo ') + len(shown)) * cw
     css = ".cur{animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}"
-    body = (f'<text x="18" y="40" style="font-size:{fs}px"><tspan fill="{t["key"]}">$ </tspan><tspan fill="{t["val"]}">echo {escape(shown)}</tspan></text>'
-            f'<rect class="cur" x="{end + 8:.1f}" y="22" width="{cw}" height="24" fill="{t["key"]}"/>')
+    body = (f'<text x="18" y="36" style="font-size:{fs}px"><tspan fill="{t["key"]}">$ </tspan><tspan fill="{t["val"]}">echo {escape(shown)}</tspan></text>'
+            f'<rect class="cur" x="{end + 8:.1f}" y="21" width="{cw}" height="20" fill="{t["key"]}"/>')
     if who:
-        body += f'<text x="18" y="84" style="font-size:{fs - 4}px" fill="{t["muted"]}"># {escape(who)}</text>'
+        body += f'<text x="18" y="72" style="font-size:{fs - 3}px" fill="{t["muted"]}"># {escape(who)}</text>'
     return svg(W, H, css, body)
 
 def todays_line():
