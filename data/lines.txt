@@ -1,0 +1,22 @@
+# One line per day, picked by date. "text | author" adds a comment with the author.
+thanks for stopping by, let's build something
+Make it work, make it right, make it fast. | Kent Beck
+on the wall, a V5 is just a bug report with consequences
+Simplicity is prerequisite for reliability. | Edsger W. Dijkstra
+every keyboard is my endgame keyboard, until the next one
+Talk is cheap. Show me the code. | Linus Torvalds
+gym, code, climb, repeat
+Premature optimization is the root of all evil. | Donald Knuth
+if it feels slow, it's broken
+First, solve the problem. Then, write the code. | John Johnson
+Debugging is twice as hard as writing the code in the first place. | Brian Kernighan
+the best bugs are the ones nobody else could find
+The two hard things: cache invalidation and naming things. | Phil Karlton
+lubing switches when I should be sleeping
+Deleted code is debugged code. | Jeff Sickel
+Breaking Bad is still the best show ever made
+The best error message is the one that never shows up. | Thomas Fuchs
+local-first, offline-friendly, always shipping
+Programs must be written for people to read. | Harold Abelson
+Weeks of coding can save you hours of planning. | Unknown
+from the database to the last pixel

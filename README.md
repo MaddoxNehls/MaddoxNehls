@@ -1,98 +1,80 @@
-<div align="center">
-<img src="https://media.licdn.com/dms/image/D5616AQGD0oPQgHQ-vg/profile-displaybackgroundimage-shrink_350_1400/0/1704441704296?e=1721865600&v=beta&t=3nnJwweYsm04dvaIfoOETLJMgQ5dWIleirwJxlDtgPA" align="center" style="width: 100%" />
-</div>  
-  
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-dark.svg">
+  <img alt="Maddox Nehls: full stack software engineer in Beaverton, Oregon. Coding since 2017. Into the gym, rock climbing, custom keyboards, movies and TV, and travel." src="./assets/card-light.svg" width="100%">
+</picture>
 
-## <div align="center">Hi, I'm Maddox Nehls 👋</div>  
-  
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&duration=3200&pause=2600&center=true&vCenter=true&width=640&height=40&lines=Coding+since+2017;Full+stack%2C+from+schema+to+pixels;Wrote+an+AI+model+runner+from+scratch+in+Rust;Built+a+sync+engine+8.4x+faster+than+Yjs;Making+slow+things+fast;Finding+the+bug+everyone+gave+up+on;Oregon+State+CS%2C+Honors;Top+finish+at+the+BOLT2+hackathon;Rock+climber+and+gym+regular;Probably+lubing+switches+right+now;Every+keyboard+is+my+endgame+keyboard;Breaking+Bad+is+the+best+show+ever+made;Always+planning+the+next+trip&color=7EE787">
+    <img alt="Coding since 2017. Full stack, from schema to pixels. Wrote an AI model runner from scratch in Rust. Built a sync engine 8.4x faster than Yjs. Making slow things fast. Finding the bug everyone gave up on. Oregon State CS, Honors. Top finish at the BOLT2 hackathon. Rock climber and gym regular. Probably lubing switches right now. Every keyboard is my endgame keyboard. Breaking Bad is the best show ever made. Always planning the next trip." src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&duration=3200&pause=2600&center=true&vCenter=true&width=640&height=40&lines=Coding+since+2017;Full+stack%2C+from+schema+to+pixels;Wrote+an+AI+model+runner+from+scratch+in+Rust;Built+a+sync+engine+8.4x+faster+than+Yjs;Making+slow+things+fast;Finding+the+bug+everyone+gave+up+on;Oregon+State+CS%2C+Honors;Top+finish+at+the+BOLT2+hackathon;Rock+climber+and+gym+regular;Probably+lubing+switches+right+now;Every+keyboard+is+my+endgame+keyboard;Breaking+Bad+is+the+best+show+ever+made;Always+planning+the+next+trip&color=116329">
+  </picture>
+</p>
 
-<div align="center">
-<a href="https://github.com/MaddoxNehls" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/maddox-nehls" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
+I'm Maddox, a software engineer in Beaverton, Oregon. I like owning things end to end, from the database schema to the last pixel, and I'm happiest making slow things fast and flaky things boring.
 
+**New here?** Start with [Kiln](https://github.com/MaddoxNehls/kiln) or [Tandem](https://github.com/MaddoxNehls/tandem) below, or see everything at [maddoxnehls.vercel.app](https://maddoxnehls.vercel.app).
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Creact%2Cnextjs%2Cvue%2Ctailwind%2Cnodejs%2Cpython%2Cgo%2Crust%2Cjava%2Cphp%2Claravel%2Cpostgres%2Cmongodb%2Cdocker%2Cvercel&perline=16">
+    <img alt="TypeScript, React, Next.js, Vue, Tailwind, Node.js, Python, Go, Rust, Java, PHP, Laravel, PostgreSQL, MongoDB, Docker, Vercel" src="https://skillicons.dev/icons?i=ts%2Creact%2Cnextjs%2Cvue%2Ctailwind%2Cnodejs%2Cpython%2Cgo%2Crust%2Cjava%2Cphp%2Claravel%2Cpostgres%2Cmongodb%2Cdocker%2Cvercel&perline=16&theme=light" width="100%">
+  </picture>
+</p>
 
-### Here's a little bit about me!  
-Welcome to my GitHub! 🌟 I am passionate about technology and problem-solving, constantly learning and working on challenging projects. In my free time, I enjoy playing basketball 🏀 and engaging in creative activities 🎨. I am excited to connect and collaborate on innovative ideas and projects. 🚀  
-  
+### Off the clock
 
-<br/>  
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tiles-dark.svg">
+  <img alt="Climbing: bouldering, V5. Gym: 5-6 days a week. Keyboards: gasket-mount 75%, lubed. Movies and TV: Money Heist fan. Travel: next stop, Mexico." src="./assets/tiles-light.svg" width="100%">
+</picture>
 
+<details>
+<summary><b>⌨️ Keyboard corner</b></summary>
 
-## Rapidfire  
-<table><tr><td valign="top" width="50%">
+```text
+Board ........ custom 75%, gasket mount, hot-swap PCB
+Case ......... CNC aluminum, e-white, brass weight
+Plate ........ polycarbonate with flex cuts
+Switches ..... Gateron Oil King linears, hand-lubed (Krytox 205g0), filmed
+Springs ...... 62g long pole, bag-lubed
+Stabilizers .. Durock V2, clipped, band-aid modded, dielectric grease
+Keycaps ...... GMK Olivia++, Cherry profile
+Mods ......... tape mod, PE foam, force-break
+Firmware ..... QMK, with a layer for IDE shortcuts
+Sound ........ deep, muted thock
+Next build ... a split ergo for my wrists
+```
 
-- ### <ins>🔭 I’m currently working on [NehlsNav](https://nehls-nav.vercel.app/) and [My Personal Portfolio](https://maddoxnehls.vercel.app/)</ins>  
-  
+</details>
 
-- ### <ins>🌱I’m currently diving into AI and cloud infrastructure.</ins>  
-  
+<details>
+<summary><b>✈️ Places I've been</b></summary>
+<br>
 
-- ### <ins>❓Ask me about anything related to full-stack development, especially with React and Node.js.</ins>  
-  
+<img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1e8-1f1e6.svg" width="18" height="18" alt=""> Canada &nbsp;·&nbsp; <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1ef-1f1f5.svg" width="18" height="18" alt=""> Japan &nbsp;·&nbsp; <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1ee-1f1f9.svg" width="18" height="18" alt=""> Italy &nbsp;·&nbsp; <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1eb-1f1f7.svg" width="18" height="18" alt=""> France &nbsp;·&nbsp; <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1ec-1f1e7.svg" width="18" height="18" alt=""> United Kingdom &nbsp;·&nbsp; <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1e8-1f1f7.svg" width="18" height="18" alt=""> Costa Rica
 
-- ### <ins>⚡ Fun fact: I love playing basketball in my free time!</ins>  
+**Next stop:** <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f1f2-1f1fd.svg" width="18" height="18" alt=""> Mexico
 
+</details>
 
-</td><td valign="top" width="50%">
+<details>
+<summary><b>🎬 Watchlist</b></summary>
+<br>
 
-<div align="center">
-<img src="https://i.gyazo.com/0b6199c169ed352ef62b2f30f5336155.png" align="center" style="width: 100%" />
-</div>  
+| Watching now | All-time favorites |
+| --- | --- |
+| Lucy | Money Heist |
+| The 100 | Breaking Bad |
+| | Silo |
 
+<!-- letterboxd:start -->
+<!-- letterboxd:end -->
 
-</td></tr></table>  
+</details>
 
-<br/>  
+<br>
 
-
-## Languages and Tools  
-<div align="center">  
-<a href="https://laravel.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/laravel-plain-wordmark.svg" alt="Laravel" height="50" /></a>  
-<a href="https://vuejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" height="50" /></a>  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>  
-<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
-<a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
-<a href="https://www.tailwindcss.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="Tailwind CSS" height="50" /></a>  
-<a href="https://nextjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="50" /></a>  
-<a href="https://redux.js.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="50" /></a>  
-<a href="https://chakra-ui.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/chakraui.png" alt="Chakra UI" height="50" /></a>  
-<a href="https://mui.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mui.png" alt="Material UI" height="50" /></a>  
-<a href="https://styled-components.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/styled-components.png" alt="Styled Components" height="50" /></a>  
-<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
-<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
-<a href="https://www.cprogramming.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="50" /></a>  
-<a href="https://www.cplusplus.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" /></a>  
-<a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" /></a>  
-<a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" /></a>  
-<a href="https://www.djangoproject.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/django-original.svg" alt="Django" height="50" /></a>  
-<a href="https://flask.palletsprojects.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flask.png" alt="Flask" height="50" /></a>  
-<a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" /></a>  
-<a href="https://dotnet.microsoft.com/download/dotnet-framework" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/dot-net-original-wordmark.svg" alt=".NET" height="50" /></a>  
-<a href="https://symfony.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/symfony_black_03.svg" alt="Symfony" height="50" /></a>  
-<a href="https://codeigniter.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/codeigniter.svg" alt="CodeIgniter" height="50" /></a>  
-<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
-<a href="https://www.postgresql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>  
-<a href="https://www.oracle.com/in/index.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/oracle-original.svg" alt="Oracle" height="50" /></a>  
-<a href="https://firebase.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/firebase.png" alt="Firebase" height="50" /></a>  
-<a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" /></a>  
-<a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" /></a>  
-<a href="https://www.jenkins.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jenkins-icon.svg" alt="Jenkins" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-<a href="https://azure.microsoft.com/en-in/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/microsoft_azure-icon.svg" alt="Azure" height="50" /></a>  
-<a href="https://pytorch.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/pytorch-icon.svg" alt="pytorch" height="50" /></a>  
-<a href="https://graphql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/graphql.png" alt="GraphQL" height="50" /></a>  
-<a href="https://www.strapi.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/strapi.svg" alt="Strapi" height="50" /></a>  
-<a href="https://flutter.dev/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flutterio-icon.svg" alt="Flutter" height="50" /></a>  
-<a href="https://developer.apple.com/swift/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/swift-original-wordmark.svg" alt="Swift" height="50" /></a>  
-</div>
-<br />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/signoff-dark.svg">
+  <img alt="Today's sign-off line" src="./assets/signoff-light.svg" width="100%">
+</picture>
