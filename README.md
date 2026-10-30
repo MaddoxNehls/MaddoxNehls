@@ -21,11 +21,11 @@ I'm Maddox, a software engineer in Beaverton, Oregon. I like owning things end t
   </picture>
 </p>
 
-### How I work
+### Ask me about
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/tiles-dark.svg">
-  <img alt="Schema first: data model up front. Ship small: small PRs, often. Read the source before I guess. Watch real users, then fix the UX. Write it down: docs are features." src="./assets/tiles-light.svg" width="100%">
+  <img alt="CRDTs and conflict-free merges. LLM inference: KV caches and kernels. RAG evals with citations that hold. Scraping bot-blocking sites. Postgres: making queries fast." src="./assets/tiles-light.svg" width="100%">
 </picture>
 
 <details>

@@ -66,18 +66,18 @@ ROWS = [
 ]
 
 TILES = [
-    ('Schema first', 'Data model up front', 'database'),
-    ('Ship small', 'Small PRs, often', 'branch'),
-    ('Read the source', 'Before I guess', 'code'),
-    ('Watch real users', 'Then fix the UX', 'eye'),
-    ('Write it down', 'Docs are features', 'file'),
+    ('CRDTs', 'Conflict-free merges', 'merge'),
+    ('LLM inference', 'KV caches, kernels', 'cpu'),
+    ('RAG evals', 'Citations that hold', 'quote'),
+    ('Scraping', 'Bot-blocking sites', 'shield'),
+    ('Postgres', 'Making queries fast', 'bolt'),
 ]
 ICONS = {  # 24x24 stroke icons
-    'database': '<ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/>',
-    'branch': '<circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="6" r="3"/><path d="M6 9v6M18 9a9 9 0 0 1-9 9"/>',
-    'code': '<path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/>',
-    'eye': '<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
-    'file': '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>',
+    'merge': '<circle cx="6" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M6 9v12M6 9a9 9 0 0 0 9 9"/>',
+    'cpu': '<rect x="6" y="6" width="12" height="12" rx="1"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/>',
+    'quote': '<path d="M3 21c3 0 7-1 7-8V5H3v8h4M14 21c3 0 7-1 7-8V5h-7v8h4"/>',
+    'shield': '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+    'bolt': '<path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>',
 }
 
 def font_face():
